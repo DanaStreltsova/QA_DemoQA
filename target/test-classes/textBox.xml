@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Quick" verbose="1">
+    <test name="Quick1">
+        <classes>
+            <class name="com.demoqa.tests.elements.TextBoxTest">
+            <parameter name="name" value ="Djorg Ivanov"></parameter>
+            <parameter name="email" value ="djorg@gm.com"></parameter>
+            <parameter name="address" value ="Berlin"></parameter>
+            </class>
+        </classes>
+    </test>
+</suite>
